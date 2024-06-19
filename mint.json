@@ -1,91 +1,123 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "developers-dialpad",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/developers-dialpad_logo.png",
+    "light": "/logo/developers-dialpad_logo_inverted.png"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#000000",
+    "light": "#f2f2f2",
+    "dark": "#000000",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#000000",
+      "to": "#f2f2f2"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "See pricing",
+      "url": "https://dialpad.com/pricing"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Get started",
+    "url": "https://dialpad.com/products-selection"
+  },
+  "primaryTab": {
+    "name": "Introduction"
   },
   "tabs": [
     {
       "name": "API Reference",
       "url": "api-reference"
+    },
+    {
+      "name": "New Releases",
+      "url": "new-releases"
+    },
+    {
+      "name": "Discussions",
+      "url": "discussions"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://dialpad.com/blog/"
+    },
+    {
+      "name": "Contact Us",
+      "icon": "envelope",
+      "url": "https://dialpad.com/contact-us/"
     }
   ],
+  "modeToggle": {
+    "default": "dark"
+  },
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "API Basics",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "api-basics/api-key-generation",
+        "api-basics/oauth",
+        "api-basics/ai-agent-assist"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Other Resources",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "other-resources/custom-ivr-types",
+        "other-resources/http-status-code",
+        "other-resources/dialpad-status"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Compliance & Policies",
       "pages": [
-        "api-reference/introduction"
+        "compliance-&-policies/access-control-policies",
+        "compliance-&-policies/rate-limits",
+        "compliance-&-policies/a2p-compliance"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Introduction",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "introduction/welcome",
+        "introduction/guidelines",
+        "introduction/publish-your-app",
+        "introduction/authentication-basics"
+      ]
+    },
+    {
+      "group": "Advanced Integration",
+      "pages": [
+        "advanced-integration/event-subscriptions-via-websocket",
+        "advanced-integration/app-launch-urls",
+        "advanced-integration/dialpad-mini-dialer",
+        "advanced-integration/call-routing-via-apis",
+        "advanced-integration/sms-api",
+        "advanced-integration/stats-api-dialpad-analytics"
+      ]
+    },
+    {
+      "group": "Event APIs",
+      "pages": [
+        "event-apis/digital-engagement-api",
+        "event-apis/call-events",
+        "event-apis/sms-events",
+        "event-apis/contact-events",
+        "event-apis/agent-status-events",
+        "event-apis/change-log-events",
+        "event-apis/change-log-action-types"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "facebook": "https://www.facebook.com/Dialpadhq/",
+    "twitter": "https://twitter.com/dialpad",
+    "linkedin": "https://www.linkedin.com/company/dialpad"
   }
 }
